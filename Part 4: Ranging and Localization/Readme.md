@@ -6,7 +6,6 @@ For autonomous vehicles, the perception subsystem typically consists of a camera
 <div align="center">
 
 ![](_images/ultra.png)
-
 *Ultrasonic Range sensor MAX3232- Texas Instruments*
 
 </div>
@@ -16,17 +15,34 @@ For autonomous vehicles, the perception subsystem typically consists of a camera
 - Installing packages on RPi - PiCam.
 - Record still image using picamera.
 - Use MAX3232 to record 10 successive distance measurements between Pi and the object.
-- Find counters and create a bounding circle around the moments for the pixels containing green color.
-- Modify existing code to work with videos as well.
-- Analysis of hardware performance.
+- Load the green arrow and read image.
+- Take HSV masking for the arrow and detect the green part. After this, we write the code to detect corners.
+- Based on count of number of vertices, we can estimate the direction in which the arrow is pointing.
 
 <div align="center">
 
-![](_images/Frame_screenshot_19.02.2021.png)
+![](_images/ForAssignment4.png)
 
-*Resultant image with identified green section.*
+*Images with distances in consideration.*
 
 </div>
 
+<div align="center">
+
+![](_images/hw4arrow.JPG)
+
+*Green arrow (not the hero).*
+
+</div>
+
+<div align="center">
+
+![](_images/direction.png)
+
+*Direction detection.*
+
+</div>
+
+
 # Deliverable
-- Final [YouTube video](https://youtu.be/veo4b-LWQBQ) to ensure RPi can properly track green color. We will further explore this in our later projects.
+- Final [YouTube video](https://youtu.be/iDpYUZIM0c0) to ensure RPi can properly track green color. We will further explore this in our later projects.
