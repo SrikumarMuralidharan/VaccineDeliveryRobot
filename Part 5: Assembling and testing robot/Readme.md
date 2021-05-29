@@ -1,7 +1,7 @@
 # Assembling Cap'n Kunkka - vaccine delivery robot and testing its electrical and mechanical capabilities
 
 ## Describing Cap'n Kunkka
-The primary focus of this module is to assemble the robot ground up. We are using the Baron 4WD robot as our base mobile platform and are mounting our sensors on top of it. A general [time lapse video](https://youtu.be/UH9t-hU0xpg) is as attached here. We are mounting the wheels, optical encoders,
+The primary focus of this module is to assemble the robot ground up. We are using the Baron 4WD robot as our base mobile platform and are mounting our sensors on top of it. A general [time lapse video](https://youtu.be/UH9t-hU0xpg) is as attached here. We are mounting the wheels, optical encoders, RaspberryPi and camera setup, Ultrasonic sensor, motor driver and the connections to the RaspberryPi were done using dupont wires.
 
 <div align="center">
 
@@ -21,6 +21,7 @@ The primary focus of this module is to assemble the robot ground up. We are usin
 - 1x [H-Bridge L298D Motor driver](https://www.amazon.com/gp/product/B07C4B3DL4)
 - 1x [Power Bank 10000mAh USB C Battery Pack](https://www.amazon.com/gp/product/B07G26S5V8)
 - 1x [12 inch Male to Female Dupont wire](https://www.amazon.com/gp/product/B06XRV92ZB)
+- 1x [Kill switch](https://www.adafruit.com/product/1995)
 
 # Pipeline
 - Assemble the mechanical and electrical components as can be seen from the previous video.
